@@ -11,4 +11,6 @@ but it should work regardless of the version of Minecraft as long as it uses the
 Run the program with the additional argument `force` to allow bruteforcing string seeds up to 64 characters long.
 E.g. `SeedGen.exe force`
 
+Bruteforce operations take a long time and output to `output.txt` in the same directory as the program.
+
 Thanks for your time.
