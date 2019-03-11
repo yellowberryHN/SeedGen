@@ -98,7 +98,7 @@ namespace SeedGen
                 {
                     MessageBox.Show("This might take a little while, are you sure you want to continue?", this.Text, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                     DialogResult a = MessageBox.Show("not so fast! this can take a long time and can take up large amounts of disk space!", this.Text, MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-                    if (a == DialogResult.Yes)
+                    if (a == DialogResult.OK)
                     {
                         buttonGen.Enabled = false;
                         buttonGen.Text = "Generating";
